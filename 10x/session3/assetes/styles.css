@@ -1,8 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
-
 }
 
 header {
@@ -20,6 +18,17 @@ nav {
 nav img {
     width: 50px;
     height: 50px;
+    padding-left: 150px;
+}
+
+span {
+    color: rgba(121, 121, 235, 0.911);
+    margin-top: 30px;
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
 }
 
 .nav-wraper {
@@ -50,14 +59,37 @@ nav img {
 
 .main {
     display: flex;
-    /* background-color: black; */
+    background-color: black;
+    height: 715px;
+    padding-left: 250px;
+
 }
 
-span {
-    color: blue;
+.greeting {
+    color: rgba(121, 121, 235, 0.911);
 }
 
-.image {
-    width: 500px;
-    height: 100px;
+.text,
+p,
+button {
+    color: white;
+    margin-top: 60px;
+}
+
+.text {
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.image,
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.button {
+    border: 3px solid rgb(90, 90, 231);
+    width: 120px;
 }
