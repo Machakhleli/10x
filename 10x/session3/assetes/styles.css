@@ -30,7 +30,9 @@ h1 {
     color: white;
     margin-top: 30px;
 }
-
+#section1{
+    background-color:black ;
+}
 .nav-wraper {
     display: flex;
     align-items: center;
@@ -80,6 +82,8 @@ button {
 
     width: 100%;
     height: 100vh;
+    align-content: center;
+    
 
 }
 
@@ -92,4 +96,8 @@ img {
 .button {
     border: 3px solid rgb(90, 90, 231);
     width: 120px;
+    text-align: center;
+}
+.main-article{
+    display: flex;
 }
