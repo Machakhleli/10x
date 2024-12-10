@@ -54,6 +54,8 @@ button {
 
 #section2 {
     background-image: linear-gradient(rgba(4, 6, 14, 0.973), rgb(0, 0, 0));
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-wraper {
@@ -127,4 +129,35 @@ img {
 
 .main-article {
     display: flex;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.img{
+    display: flex;
+    justify-content: center;
+
+}
+ .img img{
+    width: 50%;
+    height: 50%;
+ }
+ .footer{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    
+ }
+.footer-list-wraper{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.footer-list, a{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    padding-left: 50%;
 }
