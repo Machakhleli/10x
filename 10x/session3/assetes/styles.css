@@ -23,7 +23,7 @@ nav img {
 
 span {
     color: rgba(121, 121, 235, 0.911);
-    margin-top: 30px;
+
 }
 
 h1 {
@@ -31,9 +31,31 @@ h1 {
     margin-top: 30px;
 }
 
-#section1{
-    background-image: linear-gradient(rgba(4, 6, 14, 0.973), rgb(0, 0, 0)) ;
+figcaption {
+    color: white;
+    text-align: center;
+    margin-top: 2%;
 }
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside,
+p,
+button {
+    color: white;
+    
+}
+
+#section1 {
+    background-image: linear-gradient(rgba(4, 6, 14, 0.973), rgb(0, 0, 0));
+}
+
+#section2 {
+    background-image: linear-gradient(rgba(4, 6, 14, 0.973), rgb(0, 0, 0));
+}
+
 .nav-wraper {
     display: flex;
     align-items: center;
@@ -62,9 +84,9 @@ h1 {
 
 .main {
     display: flex;
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0)) ;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
     height: 715px;
-    padding-left: 250px;
+    overflow: hidden;
 
 }
 
@@ -76,18 +98,20 @@ h1 {
 p,
 button {
     color: white;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .text {
 
     width: 100%;
     height: 100vh;
-    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
-.image{
-    height: 90%;
-}
+
 
 .image,
 img {
@@ -100,6 +124,7 @@ img {
     width: 120px;
     text-align: center;
 }
-.main-article{
+
+.main-article {
     display: flex;
 }
