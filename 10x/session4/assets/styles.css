@@ -20,7 +20,8 @@ caption,
 th,
 td {
     border: 1px solid;
+    border-collapse: collapse;
 }
 /* end firs table */
 
-/* start second table*/
+

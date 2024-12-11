@@ -4,14 +4,16 @@
 }
 table{
     width: 90%;
-    height: 30vh;
+    height: 20vh;
     border-collapse: collapse;
+    
 }
 
 .shedule-wraper, tr, th, td{
     margin: auto;
     border: 1px solid;
     text-align: center;
+    height: auto;
 }
 th{
     background-color: rgb(236, 217, 194);
