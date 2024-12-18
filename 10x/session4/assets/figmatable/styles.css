@@ -19,16 +19,30 @@ table {
 thead{
     height: 40px;
     text-align: left;
+    margin-left: 15px;
 }
-table tr  td{
-    text-align: left;
-    padding: 15px;
+tr td{
+    /* text-align: left; */
+    padding: 10px;
+    /* margin-left: 0; */
 
 }
+
 th td{
     width: 177.2px;
+    text-align: left;
+
 }
+path:hover{
+    
+    cursor: pointer;
+    fill: #6926D7;
+    
+}
+
 
 .checkbox{
     text-align: center;
+    width: 14px;
+    height: 14px;
 }
