@@ -87,12 +87,23 @@ button img {
 
 /* section hero */
 section.hero {
-    background-image: url(./media/Hero.svg);
+    background-image: url(./media/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    
+}
+.hero-footer{
+    
+    display: flex;
+    align-items: center;
+    
+}
+.hero-footer img{
     width: 100%;
-
 }
 
 /* section school-wrapper*/
@@ -155,18 +166,15 @@ p {
 
 /* section arcane-academy */
 section.arcane-academy {
-    background-image: url(./media/arcane-academy.png);
+    background-image: url(./media/Call\ To\ Action.png);
     height: 100vh;
-    padding: 10px;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
     
+   
 
 }
-.arcane-academy{
-    text-align: center;
-    align-items: center;
-}
+
 .arcane-academy h2{
     width: 585px;
     height: 46px;
@@ -174,10 +182,11 @@ section.arcane-academy {
     font-size: 36px;
     line-height: 45.67px;
     color: #EEF4F8;
-    text-align: center;
-    /* margin: 224px auto 318px; */
+    margin:0 auto; 
+       
+   
 }
-.arcane-academy-wrapper button{
+.button-wrapper {
     width: 273px;
     height: 34px;
 }
