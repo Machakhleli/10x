@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 1, 0);
+}
+.main_heading{
+    margin-top: 20px;
+    text-align: center;
+    color:aqua;
+}
+h1 img{
+    width: 35px;
+    height: 35px;
+}
+.about_me{
+    text-align: center;
+    color: blueviolet;
+    margin-top: 100px;
+}
+.about{
+    text-align: center;
+    color: blueviolet;
+    background-color: rgb(168, 168, 161);
+}
+#about_me{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.socmedia{
+    margin-top: 15px;
+    color: blueviolet;
+}
+.socmedia a img{
+    width: 20px;
+    height: 20px;
+}
+.name{
+    color: blueviolet;
+}
+.tutorial{
+    color: blueviolet;
+}
+.tutorial a{
+    color: azure;
+    text-decoration: none;
+}
+.fun_fact{
+    color: aquamarine;
+    text-align: center;
+    margin-top: 20px;
+}
+.my_hobby{
+    color: rgb(214, 127, 255);
+    text-align: center;
+    margin-top: 20px;
+}
+.hobbies{
+    margin-top: 20px;
+    color: rgb(214, 127, 255);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.hobbies, p{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.hobbies, ul li, ol li{
+    color: rgb(214, 127, 255);
+    margin-top: 20px;
+}
+.menu{
+    color: brown;
+    margin-top: 20px;
+    text-align: center;
+}

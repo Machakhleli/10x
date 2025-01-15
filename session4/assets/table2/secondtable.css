@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    width: 90%;
+    height: 20vh;
+    border-collapse: collapse;
+    
+}
+
+.shedule-wraper, tr, th, td{
+    margin: auto;
+    border: 1px solid;
+    text-align: center;
+    height: auto;
+}
+th{
+    background-color: rgb(236, 217, 194);
+}
+td{
+    background-color: rgb(217, 190, 226);
+}
+td:hover{
+    color: rgb(67, 120, 236);
+    cursor: pointer;
+}

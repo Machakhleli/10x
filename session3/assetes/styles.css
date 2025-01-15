@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.76));
+    height: 120px;
+    padding: 0 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+nav img {
+    width: 50px;
+    height: 50px;
+    padding-left: 150px;
+}
+
+span {
+    color: rgba(121, 121, 235, 0.911);
+
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
+}
+
+figcaption {
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+aside,
+p,
+button {
+    color: white;
+    
+}
+
+#section1 {
+    background-image: linear-gradient(rgba(4, 6, 14, 0.973), rgb(0, 0, 0));
+}
+
+#section2 {
+    background-image: linear-gradient(rgba(4, 6, 14, 0.973), rgb(0, 0, 0));
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wraper {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 244px;
+    height: 92px;
+}
+
+.nav-list-wraper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 15px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    height: 715px;
+    overflow: hidden;
+
+}
+
+.greeting {
+    color: rgba(121, 121, 235, 0.911);
+}
+
+.text,
+p,
+button {
+    color: white;
+    margin-top: 40px;
+}
+
+.text {
+
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.image,
+img {
+    width: 100%;
+    height: 100vh;
+}
+
+.button {
+    border: 3px solid rgb(90, 90, 231);
+    width: 120px;
+    text-align: center;
+}
+
+.main-article {
+    display: flex;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.img{
+    display: flex;
+    justify-content: center;
+
+}
+ .img img{
+    width: 50%;
+    height: 50%;
+ }
+ .footer{
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    
+ }
+.footer-list-wraper{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+}
+.footer-list, a{
+    color: white;
+    text-decoration: none;
+}
+.copyright{
+    padding-left: 50%;
+}
