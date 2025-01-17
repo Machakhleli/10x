@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -36,10 +37,15 @@ h1 {
     margin: 0 auto;
 }
 
-/* name wrapper */
-.name-wrapper {
+.name-wrapper,
+.location-wrapper {
     width: 352px;
     height: 60px;
+}
+
+
+/* name wrapper */
+.name-wrapper {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -49,6 +55,7 @@ h1 {
 .name-wrapper label {
     width: 171px;
     height: 14px;
+
 }
 
 .name-wrapper input {
@@ -56,9 +63,90 @@ h1 {
     height: 40px;
     padding: 12px;
     border: 1px solid #42506666;
-    border-radius: 5px;
-    box-shadow: 0px 4px 50px 0px #0000000D;
+
+}
+
+
+input[type="radio"] {
+    accent-color: black;
+
+}
+
+.name-wrapper label,
+.name-wrapper input {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14.06px;
 
 }
 
 /* locattion wrapper */
+.location-wrapper {
+    margin-bottom: 32px;
+}
+
+.location-content-wrapper {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #42506666;
+    box-shadow: 0px 2px 4px 0px #4250661A;
+    border-radius: 5px;
+    display: flex;
+}
+
+.location-content-wrapper select {
+    border: none;
+    outline: none;
+    padding: 0 190px 0 0;
+}
+
+.location-content-wrapper svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* radio buttons */
+
+.radio-buttons {
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 32px;
+
+}
+
+.radio-buttons input {
+    width: 20px;
+    height: 20px;
+}
+
+.radio-buttons label {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+/* information wrapper */
+.information-wrapper {
+    width: 352px;
+    height: 194px;
+}
+
+ .company-info,
+ .case-info{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #42506666;
+    box-shadow: 0px 2px 4px 0px #4250661A;
+
+}
+.company-info input{
+    outline: none;
+}
