@@ -42,42 +42,69 @@
                 <input name="radio1" type="radio" id="radio2">
                 <label for="radio2">Radio 2</label>
             </div>
-                <label>Company informaion</label>
-                <div class="company-info">
-                    <input type="text" placeholder="company name">
-                </div>
+            <label>Company informaion</label>
+            <div class="company-info">
+                <input type="text" placeholder="company name">
+            </div>
+            <div class="case-info">
+                <svg width="14" height="14" viewBox="0 0 15 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M8.08333 9.33333H7.5V7H6.91667M7.5 4.66667H7.50583M12.75 7C12.75 7.68944 12.6142 8.37213 12.3504 9.00909C12.0865 9.64605 11.6998 10.2248 11.2123 10.7123C10.7248 11.1998 10.146 11.5865 9.50909 11.8504C8.87213 12.1142 8.18944 12.25 7.5 12.25C6.81056 12.25 6.12787 12.1142 5.49091 11.8504C4.85395 11.5865 4.2752 11.1998 3.78769 10.7123C3.30018 10.2248 2.91347 9.64605 2.64963 9.00909C2.3858 8.37213 2.25 7.68944 2.25 7C2.25 5.60761 2.80312 4.27226 3.78769 3.28769C4.77226 2.30312 6.10761 1.75 7.5 1.75C8.89239 1.75 10.2277 2.30312 11.2123 3.28769C12.1969 4.27226 12.75 5.60761 12.75 7Z"
+                        stroke="black" stroke-width="1.33333" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
                 <label>Describe your case</label>
-                <div class="case-info">
-                    <textarea name="" id="" placeholder="Tell us about your case"></textarea>
+            </div>
+            <textarea name="" id="case-info" placeholder="Tell us about your case"></textarea>
+            <div class="phone-number-wrapper">
+                <label for="">Phone number</label>
+                <div class="country-code-wrapper">
+                    <select name="phone-numbers" id="phone-numbers">
+                        <option value="georgian-flag">
+                            <img src="../FORMS/assets/georgia.png" alt="georgian flag" id="georgian-flag">
+                            <span class="country-code">+995</span>
+                        </option>
+                        <option value="">
+                            <img src="../FORMS/assets/china.png" alt="china flag">
+                            <span class="country-code">+86</span>
+                        </option>
+                        <option value="">
+                            <img src="../FORMS/assets/lithuenia.png" alt="lithuenia flag">
+                            <span class="country-code">+370</span>
+                        </option>
+                        <option value="">
+                            <img src="../FORMS/assets/united-kingdom.png" alt="UK flag">
+                            <span class="country-code">+44</span>
+                        </option>
+                    </select>
+                    <span class="line"></span>
+                    <input type="text" placeholder=" enter phone number">
                 </div>
-            <div class="phone-number-wrapper"> Phone number
-                <select name="" id="">
-                    <option value="">
-                        <span class="flags">+995</span>
-                    </option>
-                    <option value="">
-                        <span class="flags">+370</span>
-                    </option>
-                    <option value="">
-                        <span class="flags">+86</span>
-                    </option>
-                </select>
-                <input type="text" placeholder=" XXX XX XX XX">
             </div>
             <div class="card-wrapper">
                 <label for="">Credit card information</label>
-                <input type="text" placeholder="Credit card no">
-                <input type="text" placeholder="MM/YY">
-                <input type="text" placeholder="CCV">
+                <input class="card-number" type="text" placeholder=" Credit card no">
+                <div class="exp-date">
+                    <input type="text" placeholder=" MM/YY">
+                    <input type="text" placeholder=" CCV">
+                </div>
             </div>
             <div class="checkbox-wrapper">
-                <input type="checkbox">
-                <label for="">Value 1</label>
-                <input type="checkbox">
-                <label for="">Value 2</label>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label for="value1" name="value1" id="value1">Value 1</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox">
+                    <label for="value2" name="value2" id="value2">Value 2</label>
+                </div>
+
             </div>
-            <div action="">
-                <input type="submit" value="submit">
+            <div class="submit-btn">
+                <button> Submit 
+                    <svg width="17" height="12" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.5 3.33333L11.1667 8L6.5 12.6667" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                </button>
             </div>
         </div>
 
