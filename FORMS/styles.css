@@ -50,7 +50,7 @@ phone-number-wrapper {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
-
+    
 }
 
 .name-wrapper label {
@@ -64,13 +64,13 @@ phone-number-wrapper {
     height: 40px;
     padding: 12px;
     border: 1px solid #42506666;
+    border-radius: 5px;
 
 }
 
 
 input[type="radio"] {
     accent-color: black;
-
 }
 
 .name-wrapper label,
@@ -79,7 +79,6 @@ input[type="radio"] {
     font-weight: 400;
     font-size: 12px;
     line-height: 14.06px;
-
 }
 
 /* locattion wrapper */
@@ -161,6 +160,7 @@ textarea {
     height: 104px;
     outline: 1px #42506666;
     border: 1px solid #42506666;
+    border-radius: 5px;
     margin-bottom: 32px;
 }
 
