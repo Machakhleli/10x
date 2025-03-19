@@ -6,5 +6,5 @@ console.log(typeof gold);
 console.log(typeof map);
 console.log(typeof cudrsedAmulet);
 
-map = "Akhatsikhe" + 11;
+map = "Akhatsikhe " + 11;
 console.log(map);
