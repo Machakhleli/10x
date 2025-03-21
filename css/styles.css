@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.task1 {
+  margin: 0 auto;
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
