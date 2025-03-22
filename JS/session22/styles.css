@@ -1,21 +1,63 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.task1{
+.task1 {
     width: 800px;
-    height: 400px;
-    margin: 0 auto;
+    height: 200px;
+    margin: 30px auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap: 10px;
 }
+
+.result {
+    width: 800px;
+    height: auto;
+    border: 2px solid greenyellow;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* task-2 hogwarts Spell Casting – Function Parameters */
+.task-2 {
+    width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.container2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.hero {
+    width: 45%;
+    height: 250px;
+    text-align: center;
+}
+
+.hero img {
+    width: 250px;
+    height: 250px;
+}
+
+/* task-3 One Piece Bounty Calculator – Return Values */
