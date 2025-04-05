@@ -152,3 +152,6 @@ function magicMirror(message, transformFunction) {
 magicMirror("will I be rich?");
 magicMirror("am I cool?");
 magicMirror("of couerse you are cool )))")
+
+
+
