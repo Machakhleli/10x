@@ -46,3 +46,45 @@ function repeatString(str, n) {
 }
 repeatString("hello", 3);
 repeatString("expecto patronum ", 3);
+
+// task 5
+
+function printObjectKeys(obj) {
+    for (let keys in obj) {
+        // console.log(keys);
+        console.log(`${keys} : ${obj[keys]}`)
+    }
+}
+printObjectKeys({ name: "Alice", age: 25 });
+
+const person = {
+    name: "Usho",
+    age: 35,
+    family: "yes",
+    children: ["Marta", "Taia"],
+    car: "Honda Civic"
+}
+for (let properties in person) {
+    console.log(`${properties}: ${person[properties]}`);
+
+}
+// task 6
+
+//აქაც მუშაობს უბრალოდ არ გამოაქვს 1-იანი, სავარაუდოდ იმიტომ, რომ 0-ს ვერ აღიქვამს ლუწ რიცხვად
+// function filterOdds(numbers) { 
+//     for (let i = 0; i < numbers.length; i++) {
+//         if (numbers[i] % 2 === 0) {
+//             console.log(numbers[i] + 1);
+//         }
+//     }
+// }
+// filterOdds([1, 2, 3, 4, 5, 6, 7]);
+
+function filterOdds(numbers) {
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 !== 0) {
+            console.log(numbers[i]);
+        }
+    }
+}
+filterOdds([1, 2, 3, 4, 5, 6, 7]);
