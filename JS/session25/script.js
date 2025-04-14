@@ -120,4 +120,46 @@ function reverseString(str) {
 reverseString("Usho");
 reverseString("ჯავასკრიპტი ტვინის ბურღვაა");
 
-// 
+// middle task 4
+
+function getValidInput() {
+    let validNum = 8;
+
+    do {//რენდმაიზერი თავიდან მეწერა სკოუპს გარეთ რის გამოც არ მუსშობდა  ფუნქცია.
+        // რენდომაიზერი სკოუპს შიგნით უნდა იყოს, რომ რენდომაიზერით მიღებული ციფრი შეადაროს ვალიდურ ციფრს და გამოიყვანოს შედეგი.
+        let numOfUser = Math.floor(Math.random() * 10) + 1;
+        console.log(numOfUser);
+        if (numOfUser === validNum) {
+            console.log("gratz!!! number is valid");
+            break;
+        } else {
+            console.log("incorrect number");
+        }
+
+    } while (true);
+}
+
+getValidInput();
+
+// hard task 1
+
+function fizzBuzzTwist() {
+    for (let i = 1; i <= 50; i++) {
+        if (i % 3 === 0) {
+            console.log("Fizz");
+        } else if (i % 5 === 0) {
+            console.log("Buzz");
+        } else if (i % 3 === 0 && i % 5 === 0) {
+            console.log("FizzBuzz");
+        } else if (i.toString().includes('3')) {//ეს ნაწილი დავაწერინე ჯიპიტის, რადგან ამას ჩემით ამ ეტაპზე ვერ გავაკეთებდი, შანსი არ იყო.
+            console.log("Almost Fizz");
+        } else {
+            console.log(i);
+        }
+
+    }
+}
+fizzBuzzTwist();
+
+//hard task 2
+
