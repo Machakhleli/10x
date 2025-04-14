@@ -68,7 +68,7 @@ for (let properties in person) {
     console.log(`${properties}: ${person[properties]}`);
 
 }
-// task 6
+// medium task 1
 
 //აქაც მუშაობს უბრალოდ არ გამოაქვს 1-იანი, სავარაუდოდ იმიტომ, რომ 0-ს ვერ აღიქვამს ლუწ რიცხვად
 // function filterOdds(numbers) { 
@@ -88,3 +88,36 @@ function filterOdds(numbers) {
     }
 }
 filterOdds([1, 2, 3, 4, 5, 6, 7]);
+
+// middke task 2
+
+function findMaxValue(numbers) {
+    let maxValue = numbers[0]
+    for (let num of numbers) {
+        if (num > maxValue) {
+            maxValue = num
+        }
+    }
+    console.log(maxValue)
+}
+findMaxValue([10, 20, 5, 30]);
+findMaxValue([1, 5, 3, 9, 7]);
+
+//middle task 3
+
+function reverseString(str) {
+    let reverse = ""; //აქ უნდა გამოვიდეს დარევერსებული მნიშვნელობა
+    let item = str.length - 1; // ეს არი სტრინგის უკანასკნელი ასობგერის ინდექსი, hello-ს შემთხვევაში გამოდის 4
+    while (item >= 0) {
+        reverse += str[item];
+        item--;
+    }//აღნიშნული ლუპი გაეშვება სტრინგის სიგრძის ბოლოდან დასაწყისისკენ, რადგან ყოველი იტერაციის დროს ვთხოვთ შემცირებას (item --),
+    //შესაბამისად პირველ იტერაციაზე str[item] დააბრუნებს "o"-ს, მომდევნო იტერაციაზე "h"-ს და ა.შ. სანამ არ შესრულდება პირობა,
+    //აქედან გამომდინარე, საბოლოოდ დაკონსოლებული სტრინგის რევერსი გამოვა "ohsU"
+    console.log(reverse);
+}
+
+reverseString("Usho");
+reverseString("ჯავასკრიპტი ტვინის ბურღვაა");
+
+// 
