@@ -125,7 +125,7 @@ reverseString("ჯავასკრიპტი ტვინის ბურღ
 function getValidInput() {
     let validNum = 8;
 
-    do {//რენდმაიზერი თავიდან მეწერა სკოუპს გარეთ რის გამოც არ მუსშობდა  ფუნქცია.
+    do {//რენდომაიზერი თავიდან მეწერა სკოუპს გარეთ რის გამოც არ მუშაობდა  ფუნქცია.
         // რენდომაიზერი სკოუპს შიგნით უნდა იყოს, რომ რენდომაიზერით მიღებული ციფრი შეადაროს ვალიდურ ციფრს და გამოიყვანოს შედეგი.
         let numOfUser = Math.floor(Math.random() * 10) + 1;
         console.log(numOfUser);
@@ -163,3 +163,28 @@ fizzBuzzTwist();
 
 //hard task 2
 
+function printMultiplicaationTable(n){
+    for(let i = 1; i <= n; i++){
+        for(let j = 1; j <= n; j++){
+            // console.log(i*j);
+            console.log(`${i} * ${j} = ${i * j}`);
+        }
+    }
+}
+printMultiplicaationTable(5);
+printMultiplicaationTable(10);
+
+//hard task 3
+
+function removeDuplicates(arr){// ჯერ ვერ გავქაჩე
+    for( let i = 0; i < arr.length; i++){
+        for(let j = i + 1; j < arr.length; j++){
+            if( arr[i] === arr[j]){
+                
+                let num = [... new Set(arr)];
+                console.log(num);
+            }
+        }
+    } 
+}
+removeDuplicates([1, 2, 2, 3, 4, 4, 5])
