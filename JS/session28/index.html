@@ -1,20 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./script.js" defer></script>
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body style="text-align: center">
+    <!-- task 1 -->
 
-    <p id="hidden-message" style="display: none;">!egassem terces a si sihT</p>
+    <p id="hidden-message" style="display: none">!egassem terces a si sihT</p>
     <p>Decoded Message: <span id="decoded-message"></span></p>
     <button onclick="revealMessage()">Reveal Message</button>
 
+    <div style="height: 50px"></div>
 
-</body>
+    <!-- task 2 -->
 
+    <div class="classified" data-security="high">Top Secret Document</div>
+    <div class="classified" data-security="medium">Confidential Report</div>
+    <div class="classified" data-security="low">Public Notice</div>
+
+    <div style="height: 50px"></div>
+
+    <!-- task 3 -->
+    <div class="suspect" data-clue="red-hat">Suspect 1</div>
+    <div class="suspect" data-clue="blue-scarf">Suspect 2</div>
+    <div class="suspect" data-clue="green-coat">Suspect 3</div>
+
+    <div style="height: 50px"></div>
+
+    <!-- task 4  -->
+    <ul id="evidence-log"></ul>
+    <p>Evidence Remaining: <span id="evidence-count">0</span></p>
+
+    <div data-evidence="true">USB Drive</div>
+    <div data-evidence="true">Hacked File</div>
+    <div data-evidence="true">Suspicious Email</div>
+
+    <!-- task 5  -->
+    <table>
+      <thead>
+        <tr>
+          <th>Data Entry</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="records">
+        <tr>
+          <td>Classified Info</td>
+          <td><button onclick="deleteEntry(this)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button onclick="recoverLast()">Recover Last Deleted</button>
+    <ul id="audit-log"></ul>
+  </body>
 </html>

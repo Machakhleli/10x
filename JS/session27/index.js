@@ -23,7 +23,6 @@ console.log(car);
 const person = {
     name: "Usho",
     age: 35,
-    // greet: function(){ console.log("Hello, my name is " + this.name + " and I am " + this.age + " years old.")}
     greet: function () { return "Hello, my name is " + this.name + " and I am " + this.age + " years old." }
 }
 // person.greet();
@@ -76,3 +75,6 @@ class Animal {
 }
 const dog = new Animal("Tsuga", "dog");
 dog.makeSound();
+
+
+
